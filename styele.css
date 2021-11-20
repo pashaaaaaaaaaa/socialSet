@@ -9,6 +9,16 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+.big-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 .menu{
     position: relative;
     width: 420px;
@@ -18,8 +28,8 @@ body{
     border-radius: 50%;
     align-items: center;
     background: radial-gradient(circle at 65% 15%, aqua, darkblue);
-    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
-
+    box-shadow: 5px 10px 20px rgba(10, 10, 10, 0.3), -5px -10px 20px rgba(255,255,255,0.5);
+    margin-bottom: 100px;
 }
 .one{
     width: 75px;
@@ -87,6 +97,7 @@ img{
 
 
 }
+
 .menu.active .toggle{
 transform: rotate(320deg);
 }
@@ -105,4 +116,33 @@ transform: rotate(320deg);
     75% {
         border-radius :33% 67% 58% 42% / 63% 68% 32% 37%;		
     }
+}
+footer{
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
+    width: 420px;
+    height: 220px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.author{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    color: yellow;
+}
+h2, h3{
+    color:yellow ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
